@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\LGPC\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-11.0.14\bin;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Apache24\bin;C:\Program Files\MariaDB-10.3\bin;C:\Program Files\Geth;D:\myweb\Apache24\bin;D:\Android\SDK\tools;D:\Android\SDK\platform-tools;D:\Android\SDK\emulator;C:\Program Files\Tesseract-OCR;C:\Program Files\Graphviz\bin;C:\Program Files\Graphviz\bin\dot.exe;D:\anaconda3\Library\bin\graphviz;D:\myGit\Git\cmd;D:\Java\maven\apache-maven-3.8.2\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;D:\anaconda3;D:\anaconda3\Library\mingw-w64\bin;D:\anaconda3\Library\usr\bin;D:\anaconda3\Library\bin;D:\anaconda3\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\LGPC\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\LGPC\AppData\Local\Programs\Python\Python38\;C:\Ruby23-x64\bin;C:\Users\LGPC\AppData\Local\Microsoft\WindowsApps;C:\Users\LGPC\AppData\Local\Programs\Microsoft VS Code\bin;D:\drmemory\bin\;C:\Program Files\Java\jdk1.8.0_231\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Node.js;D:\anaconda3\Library\bin\graphviz;C:\Program Files\Graphviz\bin\dot.exe;C:\Users\LGPC\AppData\Roaming\npm;C:\Program Files\Java\jdk-11.0.14\bin;
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Users\LGPC\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:137143:13)
+      at Interface.emit (node:events:390:28)
+      at Interface._ttyWrite (node:readline:1081:16)
+      at ReadStream.onkeypress (node:readline:288:10)
+      at ReadStream.emit (node:events:390:28)
+      at emitKeys (node:internal/readline/utils:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
+      at ReadStream.emit (node:events:390:28)
+      at addChunk (node:internal/streams/readable:315:12)
+
+npm manifest: 
+  {
+    "name": "pack-a",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
